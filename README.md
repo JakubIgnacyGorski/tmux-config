@@ -3,5 +3,6 @@ Installing
 ```
 cd
 git clone <this repo> .tmux
-ln -s -f .tmux/.tmux.conf ~/.tmux.conf
+chmod +x install.sh
+./install.sh
 ```
