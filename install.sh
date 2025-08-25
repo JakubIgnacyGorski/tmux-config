@@ -30,6 +30,7 @@ setup_tpm () {
     if [[ ! -d "$PLUGIN_DIR" ]] ; then
         git clone https://github.com/tmux-plugins/tpm "$PLUGIN_DIR"
     fi
+    "$HOME"/.tmux/plugins/tpm/bin/install_plugins
 }
 
 backup_config_file 
