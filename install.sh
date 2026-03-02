@@ -22,7 +22,7 @@ backup_config_file() {
 }
 
 setup_symlinks() {
-	ln -s -f "$SCRIPT_DIR/.tmux.conf" "$CONFIG_FILE"
+	ln -s -f "$SCRIPT_DIR/tmux.conf" "$CONFIG_FILE"
 }
 
 setup_tpm() {
